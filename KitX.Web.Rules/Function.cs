@@ -8,6 +8,11 @@ namespace KitX.Web.Rules
     public class Function
     {
         /// <summary>
+        /// 功能默认名称
+        /// </summary>
+        public string Name { get; set; }
+        
+        /// <summary>
         /// 功能显示名称列表
         /// </summary>
         public Dictionary<string, string> DisplayNames { get; set; }
