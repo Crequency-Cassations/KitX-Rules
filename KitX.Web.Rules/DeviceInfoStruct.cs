@@ -35,7 +35,7 @@ namespace KitX.Web.Rules
         /// <summary>
         /// 插件服务端口
         /// </summary>
-        public int ServingPort { get; set; }
+        public int PluginServerPort { get; set; }
 
         /// <summary>
         /// 插件数量
@@ -55,12 +55,12 @@ namespace KitX.Web.Rules
         /// <summary>
         /// 自组网服务器地址
         /// </summary>
-        public string ServerAddress { get; set; }
+        public int DeviceServerPort { get; set; }
 
         /// <summary>
         /// 自组网服务器建立时间
         /// </summary>
-        public DateTime ServerBuildTime { get; set; }
+        public DateTime DeviceServerBuildTime { get; set; }
 
         /// <summary>
         /// 设备系统类型
