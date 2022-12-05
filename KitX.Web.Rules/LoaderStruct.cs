@@ -25,5 +25,7 @@ namespace KitX.Web.Rules
         {
             Console, Desktop, Browser
         }
+
+        public Dictionary<string, string> Tags { get; set; }
     }
 }
