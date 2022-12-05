@@ -7,6 +7,8 @@ namespace KitX.Web.Rules
     /// </summary>
     public struct LoaderStruct
     {
+        public bool SelfLoader { get; set; }
+
         public string LoaderName { get; set; }
 
         public string LoaderVersion { get; set; }
