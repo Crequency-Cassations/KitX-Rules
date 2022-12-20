@@ -11,5 +11,7 @@ namespace KitX.Web.Rules.Command
         public DeviceLocator Target { get; set; }
 
         public string Command { get; set; }
+
+        public int CallID { get; set; }
     }
 }
