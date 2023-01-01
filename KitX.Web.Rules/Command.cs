@@ -5,6 +5,8 @@ namespace KitX.Web.Rules
 {
     public class Command
     {
+        public CommandType Type { get; set; }
+
         public DeviceLocator Sender { get; set; }
 
         public DeviceLocator Target { get; set; }
@@ -24,5 +26,11 @@ namespace KitX.Web.Rules
         public int BodyLength { get; set; }
 
         public Dictionary<string, string> Tags { get; set; }
+
+    }
+
+    public enum CommandType
+    {
+        Call = 1, CallBack = 2
     }
 }
